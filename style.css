@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto; 
+}
+
+.header-section{
+    display: flex;
+    height: 100vh;
+}
+.header-left{
+    width: 50%;
+    background-color:#015761 ;
+}
+.header-right{
+    width: 50%;
+    background-image: url(images/13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo h3{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #e2ca4f;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+}
+.menu{
+    margin-left: 50px;
+}
+.menu ul{
+    display: flex;
+    
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    color: #ffffff;
+    padding: 20px 40px 20px 0px;
+    font-weight: 300;
+    font-size: 14px;
+    transition: all .3s ease;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    transition: all .3s ease;
+    color: #e2ca4f;
+    transform: skew(20deg);
+}
+.heading{
+    margin-left: 110px;
+    margin-top: 170px;
+}
+.heading h2{
+    color: #e2ca4f;
+    font-size: 24px;
+    font-weight: 400;
+}
+.heading h1{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.heading p{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+/* about me section */
+
+.about-me-section{
+    text-align: center;
+    padding: 200px 0px 200px 0px;
+    width: 100%;
+}
+.about-me-section h2{
+    color: #015761;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+
+.about-me-section p{
+    padding: 0px 350px;
+    color: gray;
+    font-weight: 300;
+    font-size: 15px;
+}
+.about-me-section button{
+    background-color: #e2ca4f;
+    padding: 10px 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: none;
+    color: #015761;
+    cursor: pointer;
+}
+.about-me-section button:hover{
+    background-color: #015761;
+    color: #ffffff;
+    transition: all .3s ease;
+}
+
+
+/* Showreel section */
+.showreel-section{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+.showreel-section h1{
+    font-size: 45px;
+    color: #015761;
+    margin-bottom: 30px;
+    padding-top: 40px;
+}
+
+.showreel-section img{
+    width: 100%;
+    height: 70vh;
+}
+
+
+
+ /*photos section */
+.photos-section{
+    width: 100%;
+    text-align: center;
+}
+
+.photos-section h1{
+    font-size: 45px;
+    color: #015761;
+    margin-bottom: 10px;
+}
+
+
+.photos-row-1{
+    display: flex;
+    
+}
+
+.g1{
+    flex-basis: 24%;
+    margin: 20px 20px 15px 50px;
+}
+.g1 img{
+    width: 100%;
+    height: 250px;
+    
+}
+.g2{
+    flex-basis: 38%;
+    margin: 20px 20px 15px 0px;
+}
+.g2 img{
+    width: 100%;
+    height: 250px;
+   
+}
+.g3{
+    flex-basis: 38%;
+    margin: 20px 50px 15px 0px;
+}
+.g3 img{
+    width: 100%;
+    height: 250px;
+    
+}
+
+
+
+.photos-row-2{
+    display: flex;
+    
+}
+
+.g4{
+    flex-basis: 40%;
+    margin: 0px 20px 20px 50px;
+}
+.g4 img{
+    width: 100%;
+    height: 250px;
+}
+.g5{
+    flex-basis: 40%;
+    margin: 0px 20px 20px 0px;
+}
+.g5 img{
+    width: 100%;
+    height: 250px;
+}
+.g6{
+    flex-basis: 20%;
+    margin: 0px 50px 20px 0px;
+}
+.g6 img{
+    width: 100%;
+    height: 250px;
+}
+
+/*contact-section */
+
+.contact-section{
+    display: flex;
+    height: 100vh;
+    margin-top: 120px;
+}
+.contact-left{
+    width: 50%;
+    
+}
+.contact-left img{
+    width: 100%;
+    height: 100vh;
+}
+.contact-right{
+    
+    width: 50%;
+    background-color:#015761 ;
+}
+.for-margin{
+    margin-left: 150px;
+    margin-top: 60px;
+}
+.contact-heading h2{
+    color: #e2ca4f;
+    font-size: 60px;
+    font-weight: 700;
+    
+}
+.contact-heading h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.our-person{
+    padding: 10px 0px 0px 0px;
+}
+.our-person h5{
+    color: #ffffff;
+}
+.our-person p{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+.social ul li{
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.social ul li a i{
+    color: #ffffff;
+}
+
+.social ul li a i:hover{
+    color: #e2ca4f;
+    transition: all 1.5s ease;
+    transform: rotate(360deg);
+    
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    height: 80px;
+    background-color: #e2ca4f;
+
+}
+.footer p{
+    line-height: 80px;
+    color:#ffffff;
+    font-weight: 300;
+    font-size: 14px;
+}
+.footer p a{
+    color: #ffffff;
+}
